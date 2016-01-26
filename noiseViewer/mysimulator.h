@@ -14,7 +14,6 @@ private:
     virtual void synchronizeSimulator(Simulator *simulator);
     virtual void synchronizeRenderer(Renderable *renderableObject);
     virtual void work();
-    QVector<SimVis::TriangleCollectionVBOData> m_vertices;
 public:
     MyWorker();
 };

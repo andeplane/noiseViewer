@@ -1,4 +1,4 @@
 TEMPLATE = subdirs
-SUBDIRS = SimVis SimVisProject
+SUBDIRS = SimVis noiseViewer
 CONFIG += ordered
 SimVisProject.depends = SimVis
